@@ -1,5 +1,6 @@
 .skills__logo-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 80px;
 }

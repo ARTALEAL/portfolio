@@ -8,3 +8,10 @@
   font-weight: bolder;
   color: #070707;
 }
+
+@media screen and (max-width: 1200px) {
+  .author__name {
+    font-size: 2.44vw;
+    line-height: 3vw;
+  }
+}

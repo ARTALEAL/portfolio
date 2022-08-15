@@ -6,3 +6,9 @@
   line-height: 22px;
   color: #070707;
 }
+
+@media screen and (max-width:1200px) {
+  .author__skills {
+    font-size: 2vw;
+  }
+}

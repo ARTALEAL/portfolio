@@ -1,6 +1,6 @@
 .portfolio__image-link {
   display: block;
-  max-width: 936px;
+  max-width: 48.75vw;
   margin: auto;
   background-color: #000;
   position: relative;
@@ -13,8 +13,8 @@
   opacity: 0;
   position: absolute;
   top: 0;
-  left: calc((100% - 936px) / 2);
-  max-width: 936px;
+  left: calc((100% - 48.75vw) / 2);
+  max-width: 48.75vw;
   bottom: 0;
   right: 0;
   transition: .5s ease-out;

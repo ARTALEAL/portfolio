@@ -3,3 +3,9 @@
   margin: auto;
   margin-top: 30px;
 }
+
+@media screen and (max-width: 968px) {
+  .author {
+    width: calc(100% - 2*125px);
+  }
+}
