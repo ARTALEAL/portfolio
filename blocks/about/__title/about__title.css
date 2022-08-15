@@ -1,0 +1,10 @@
+.about__title {
+  margin: 0;
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: bold;
+  text-align: center;
+  color: #070707;
+  padding-top: 120px;
+}

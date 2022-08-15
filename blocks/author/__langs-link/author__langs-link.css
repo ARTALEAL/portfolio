@@ -1,0 +1,12 @@
+.author__langs-link {
+  text-decoration: none;
+  font-family: 'Gilroy-Bold';
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transition: 0.3s ease-out;
+}
+
+.author__langs-link:hover {
+  opacity: 0.5;
+}

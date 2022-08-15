@@ -1,0 +1,27 @@
+.portfolio__image-link {
+  display: block;
+  max-width: 936px;
+  margin: auto;
+  background-color: #000;
+  position: relative;
+}
+
+.portfolio__image-link::before {
+  content: '';
+  display: block;
+  background-color: #2A2C2F;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: calc((100% - 936px) / 2);
+  max-width: 936px;
+  bottom: 0;
+  right: 0;
+  transition: .5s ease-out;
+}
+
+.portfolio__image-link:hover::before {
+  opacity: 0.5;
+}
+
+

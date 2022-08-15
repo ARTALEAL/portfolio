@@ -1,0 +1,10 @@
+.about__paragraph {
+  max-width: 485px;
+  margin: auto;
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin-top: 18px;
+}

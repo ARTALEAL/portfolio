@@ -1,0 +1,11 @@
+.author__langs {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  padding: 0;
+}
+
+
