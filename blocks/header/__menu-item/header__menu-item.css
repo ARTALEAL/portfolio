@@ -2,3 +2,18 @@
   margin: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 659px) {
+  .header__menu-item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .header__menu-item:hover {
+    background-color: #CFD8DC;
+  }
+}

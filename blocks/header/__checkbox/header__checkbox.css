@@ -1,0 +1,25 @@
+#menu__toggle {
+  display: none;
+}
+
+@media screen and (max-width: 659px) {
+  #menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked ~ .header__hamburger-btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .header__hamburger-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .header__hamburger-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .header__menu {
+    visibility: visible;
+    left: 0;
+  }
+}
+

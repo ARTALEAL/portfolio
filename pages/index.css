@@ -10,6 +10,10 @@
 @import url(../blocks/header/__menu-item/header__menu-item.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__line/header__line.css);
+/*header burger*/
+/* @import url(../blocks/header/__nav-container/header__nav-container.css); */
+@import url(../blocks/header/__checkbox/header__checkbox.css);
+@import url(../blocks/header/__hamburger-lines/header__hamburger-btn.css);
 
 @import url(../blocks/main/main.css);
 
