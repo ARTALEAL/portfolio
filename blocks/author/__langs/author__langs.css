@@ -8,4 +8,9 @@
   padding: 0;
 }
 
-
+@media screen and (max-width: 624px) {
+  .author__langs {
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+  }
+}

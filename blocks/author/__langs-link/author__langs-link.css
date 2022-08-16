@@ -10,3 +10,10 @@
 .author__langs-link:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 624px) {
+  .author__langs-link {
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+}

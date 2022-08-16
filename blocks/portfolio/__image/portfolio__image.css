@@ -5,3 +5,8 @@
   max-width: 48.75vw;
 }
 
+@media screen and (max-width: 624px) {
+  .portfolio__image {
+    max-width: 100%;
+  }
+}

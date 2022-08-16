@@ -25,3 +25,8 @@
 }
 
 
+@media screen and (max-width: 624px) {
+  .portfolio__image-link {
+    max-width: calc(100% - 2*50px);
+  }
+}

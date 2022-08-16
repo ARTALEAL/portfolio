@@ -9,3 +9,9 @@
     width: calc(100% - 2*125px);
   }
 }
+
+@media screen and (max-width: 652px) {
+  .author {
+    width: calc(100% - 2*50px);
+  }
+}
